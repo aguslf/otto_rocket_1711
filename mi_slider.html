@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Ejemplo de aplicacion de Slider </title>
+<!-- https://splidejs.com/ -->
+
+<!-- vincular el archivo splide.min.css. -->
+<link rel="stylesheet" href="css/splide.min.css">
+
+
+
+<style type="text/css">
+	.splide img{
+		width: 100%;
+	}
+</style>
+
+
+
+
+</head>
+<body>
+
+<!-- estructura básica del slider -->
+<div class="splide">
+  <div class="splide__track">
+		<ul class="splide__list">
+		<!-- <li class="splide__slide"><img src="img/01.jpg"></li>
+			<li class="splide__slide"><img src="img/02.jpg"></li>
+			<li class="splide__slide"><img src="img/03.jpg"></li>-->	
+
+			<li class="splide__slide"><img src="img/04.jpg"></li>
+			<li class="splide__slide"><img src="img/05.jpg"></li>
+			<li class="splide__slide"><img src="img/06.jpg"></li>
+			<li class="splide__slide"><img src="img/07.jpg"></li>
+			<li class="splide__slide"><img src="img/08.jpg"></li>
+			<li class="splide__slide"><img src="img/04.jpg"></li>
+		</ul>
+  </div>
+</div>
+
+<!-- vincular el archivo splide.min.js -->
+<script src="js/splide.min.js"></script>
+
+<!-- aplicar esta función de inicialización -->
+<script>
+  new Splide( '.splide' ).mount();
+</script>
+
+</body>
+</html>
